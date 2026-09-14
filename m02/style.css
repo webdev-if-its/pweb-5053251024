@@ -34,10 +34,18 @@ p{
    misalnya list-style: square. Item yang bersarang dua level di dalamnya
    (class .jebakan) TIDAK BOLEH ikut ke-style oleh aturan ini — itu bedanya
    dengan `.daftar li` (turunan, level berapa pun). */
+.daftar > li {
+   list-style: square;
+   color: blue;
+}
 
 /* Level 6 — TODO: tambahkan aturan :hover DAN :focus-visible untuk
    .tombol, misalnya mengubah background-color supaya terlihat interaktif. */
 
+.tombol:hover, .tombol:focus-visible {
+   background-color: #c50000;
+   color: white;
+}
 /* Level 7 — JANGAN UBAH aturan di bawah ini (p.pengumuman). Tugas kalian:
    kalahkan warnanya TANPA !important dan TANPA mengubah/menghapus baris
    di bawah — tambahkan aturan BARU dengan selector yang lebih spesifik
