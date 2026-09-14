@@ -54,7 +54,7 @@ p.pengumuman {
   color: #999999;
 }
 #pengumuman-utama {
-  color: #c50000;
+  color: var(--warna-aksen);
 }
 
 
@@ -70,7 +70,9 @@ h1 {
    (custom property, contoh: --warna-aksen: #2c6e49;), lalu PAKAI variabel
    itu lewat var(--warna-aksen) di aturan lain pada file ini — bukan cuma
    dideklarasikan tanpa pernah dipakai. */
-
+:root{
+   --warna-aksen: #c50000;
+}
 /* Level 10 — TODO: tambahkan @media (prefers-color-scheme: dark) yang
    mengubah TEPAT TIGA variabel dari :root (Level 9) untuk membalik skema
    warna jadi gelap. Jangan menulis ulang seluruh selector lain — cukup
