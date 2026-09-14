@@ -53,6 +53,10 @@ p{
 p.pengumuman {
   color: #999999;
 }
+#pengumuman-utama {
+  color: #c50000;
+}
+
 
 /* Level 8 — TODO: font-size di bawah ini pakai px — ganti SEMUA font-size
    di seluruh file ini (termasuk yang kalian tambahkan sendiri di level
