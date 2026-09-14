@@ -8,20 +8,20 @@ p{
    color: #c50000;
 }
 .deskripsi{
-   font-size: 40px;
+   font-size: 4rem;
 }
 #judul-utama{
    font-weight: bold;
-   font-size: 50px;
+   font-size: 5rem;
 }
 
 /* Level 3 — TODO: lengkapi aturan .kotak di bawah supaya punya padding,
    border, DAN margin sekaligus (nilainya bebas, asal bukan nol). */
 .kotak {
   background-color: #eef7ee;
-  padding: 20px;
-  border: 2px solid #cf6060;
-  margin: 20px;
+  padding: 2rem;
+  border: 0.125rem solid #cf6060;
+  margin: 2rem;
 }
 
 /* Level 4 — TODO: tambahkan box-sizing: border-box. Biasanya ditulis untuk
@@ -62,8 +62,9 @@ p.pengumuman {
    di seluruh file ini (termasuk yang kalian tambahkan sendiri di level
    lain) supaya pakai satuan rem, bukan px. */
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
+
 
 /* Level 9 — TODO: buat blok :root berisi minimal satu variabel CSS
    (custom property, contoh: --warna-aksen: #2c6e49;), lalu PAKAI variabel
