@@ -4,16 +4,16 @@
 /* Level 2 — TODO: tambahkan minimal satu selector ELEMEN (mis. p { ... }),
    satu selector CLASS (mis. .deskripsi { ... }), dan satu selector ID
    (mis. #judul-utama { ... }). Boleh style apa saja. */
-   p{
-    color: #c50000;
-   }
-   .deskripsi{
-    font-size: 40px;
-   }
-   #judul-utama{
-    font-weight: bold;
-    font-size: 50px;
-   }
+p{
+   color: #c50000;
+}
+.deskripsi{
+   font-size: 40px;
+}
+#judul-utama{
+   font-weight: bold;
+   font-size: 50px;
+}
 
 /* Level 3 — TODO: lengkapi aturan .kotak di bawah supaya punya padding,
    border, DAN margin sekaligus (nilainya bebas, asal bukan nol). */
@@ -26,6 +26,9 @@
 
 /* Level 4 — TODO: tambahkan box-sizing: border-box. Biasanya ditulis untuk
    selector universal (*), supaya berlaku ke semua elemen sekaligus. */
+* {
+  box-sizing: border-box;
+}
 
 /* Level 5 — TODO: tulis aturan untuk `.daftar > li` (anak LANGSUNG saja),
    misalnya list-style: square. Item yang bersarang dua level di dalamnya
