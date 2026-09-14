@@ -77,3 +77,19 @@ h1 {
    mengubah TEPAT TIGA variabel dari :root (Level 9) untuk membalik skema
    warna jadi gelap. Jangan menulis ulang seluruh selector lain — cukup
    ubah nilai variabelnya di dalam blok @media ini. */
+
+@media (prefers-color-scheme:dark){
+   :root{
+      --warna-aksen: black;
+      --font-berat: bold;
+      --background-color: #ff00a2;
+   }
+}
+
+@media (prefers-color-scheme:light){
+   :root{
+      --warna-aksen: #c50000;
+      --font-berat: italic;
+      --background-color: #02ff02;
+   }
+}
