@@ -4,6 +4,16 @@
 /* Level 2 — TODO: tambahkan minimal satu selector ELEMEN (mis. p { ... }),
    satu selector CLASS (mis. .deskripsi { ... }), dan satu selector ID
    (mis. #judul-utama { ... }). Boleh style apa saja. */
+   p{
+    color: #c50000;
+   }
+   .deskripsi{
+    font-size: 40px;
+   }
+   #judul-utama{
+    font-weight: bold;
+    font-size: 50px;
+   }
 
 /* Level 3 — TODO: lengkapi aturan .kotak di bawah supaya punya padding,
    border, DAN margin sekaligus (nilainya bebas, asal bukan nol). */
