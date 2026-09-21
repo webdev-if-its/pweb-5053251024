@@ -80,7 +80,7 @@ h1 {
    warna jadi gelap. Jangan menulis ulang seluruh selector lain — cukup
    ubah nilai variabelnya di dalam blok @media ini. */
 
-@media (min-width: 600px){
+@media (prefers-color-scheme: dark){
    :root{
       --warna-aksen: rgb(216, 91, 91);
       --font-berat: italic;
