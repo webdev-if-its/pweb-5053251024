@@ -59,12 +59,19 @@ body {
   background-color: #eef7ee;
   border: 1px solid #2c6e49;
   padding: 1rem;
+  grid-column: span 1;
 }
 
 /* Level 7 */
 
 /* Level 8 */
+.unggulan {
+  grid-column: span 2;
+  background-color: #eef7ee;
+  border: 1px solid #2c6e49;
+  padding: 1rem;
+}
 
 /* Level 9
 
-   Level 10 */
+ Level 10 */
