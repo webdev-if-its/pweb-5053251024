@@ -11,7 +11,7 @@ p{
    font-size: 4rem;
 }
 #judul-utama{
-   font-weight: bold;
+   font-weight: var(--font-berat);
    font-size: 5rem;
 }
 
@@ -72,16 +72,18 @@ h1 {
    dideklarasikan tanpa pernah dipakai. */
 :root{
    --warna-aksen: #c50000;
+   --font-berat: bold;
+   --background-color: #ff00a2;
 }
 /* Level 10 — TODO: tambahkan @media (prefers-color-scheme: dark) yang
    mengubah TEPAT TIGA variabel dari :root (Level 9) untuk membalik skema
    warna jadi gelap. Jangan menulis ulang seluruh selector lain — cukup
    ubah nilai variabelnya di dalam blok @media ini. */
 
-@media (prefers-color-scheme:dark){
+@media (min-width: 600px){
    :root{
-      --warna-aksen: black;
-      --font-berat: bold;
+      --warna-aksen: rgb(216, 91, 91);
+      --font-berat: italic;
       --background-color: #ff00a2;
    }
 }
